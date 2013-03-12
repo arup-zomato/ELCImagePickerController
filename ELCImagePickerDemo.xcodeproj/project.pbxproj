@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15D03DFB16EF16E000B4BC2A /* ImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D03DFA16EF16E000B4BC2A /* ImageCropper.m */; };
+		15D03E0216EF188B00B4BC2A /* SteveJobsMacbookAir.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 15D03E0116EF188B00B4BC2A /* SteveJobsMacbookAir.JPG */; };
+		15D03E0316EF1ABA00B4BC2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D03E0016EF17E200B4BC2A /* ViewController.m */; };
+		15D03E0416EF1F6800B4BC2A /* CropWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15D03DFD16EF17C300B4BC2A /* CropWindow.xib */; };
 		1D3623260D0F684500981E51 /* ELCImagePickerDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ELCImagePickerDemoAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -32,6 +36,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15D03DF916EF16E000B4BC2A /* ImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCropper.h; sourceTree = "<group>"; };
+		15D03DFA16EF16E000B4BC2A /* ImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCropper.m; sourceTree = "<group>"; };
+		15D03DFD16EF17C300B4BC2A /* CropWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CropWindow.xib; path = Classes/CropWindow.xib; sourceTree = "<group>"; };
+		15D03DFF16EF17E200B4BC2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15D03E0016EF17E200B4BC2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15D03E0116EF188B00B4BC2A /* SteveJobsMacbookAir.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SteveJobsMacbookAir.JPG; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* ELCImagePickerDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerDemoAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* ELCImagePickerDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerDemoAppDelegate.m; sourceTree = "<group>"; };
@@ -84,6 +94,9 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				15D03DFF16EF17E200B4BC2A /* ViewController.h */,
+				15D03E0016EF17E200B4BC2A /* ViewController.m */,
+				15D03DF816EF16E000B4BC2A /* ImageCropper */,
 				8FBE5D87131DC988001603C7 /* ELC Image Picker */,
 				1D3623240D0F684500981E51 /* ELCImagePickerDemoAppDelegate.h */,
 				1D3623250D0F684500981E51 /* ELCImagePickerDemoAppDelegate.m */,
@@ -92,6 +105,15 @@
 				2899E5210DE3E06400AC0155 /* ELCImagePickerDemoViewController.xib */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		15D03DF816EF16E000B4BC2A /* ImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				15D03DF916EF16E000B4BC2A /* ImageCropper.h */,
+				15D03DFA16EF16E000B4BC2A /* ImageCropper.m */,
+			);
+			path = ImageCropper;
 			sourceTree = "<group>";
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -126,6 +148,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				15D03DFD16EF17C300B4BC2A /* CropWindow.xib */,
+				15D03E0116EF188B00B4BC2A /* SteveJobsMacbookAir.JPG */,
 				83C6BC9514476B280064D71D /* elc-ios-icon@2x.png */,
 				83C6BC9614476B280064D71D /* elc-ios-icon.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -228,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15D03E0416EF1F6800B4BC2A /* CropWindow.xib in Resources */,
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* ELCImagePickerDemoViewController.xib in Resources */,
 				8FBE5D9E131DC988001603C7 /* ELCImagePickerController.xib in Resources */,
@@ -238,6 +263,7 @@
 				8FBE5DA3131DC988001603C7 /* Overlay@2x.png in Resources */,
 				83C6BC9714476B280064D71D /* elc-ios-icon@2x.png in Resources */,
 				83C6BC9814476B280064D71D /* elc-ios-icon.png in Resources */,
+				15D03E0216EF188B00B4BC2A /* SteveJobsMacbookAir.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15D03E0316EF1ABA00B4BC2A /* ViewController.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* ELCImagePickerDemoAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* ELCImagePickerDemoViewController.m in Sources */,
@@ -256,6 +283,7 @@
 				8FBE5D9B131DC988001603C7 /* ELCAsset.m in Sources */,
 				8FBE5D9C131DC988001603C7 /* ELCAssetCell.m in Sources */,
 				8FBE5D9D131DC988001603C7 /* ELCImagePickerController.m in Sources */,
+				15D03DFB16EF16E000B4BC2A /* ImageCropper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
